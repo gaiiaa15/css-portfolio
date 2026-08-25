@@ -1,0 +1,72 @@
+#topBox{
+    border-width :thin;
+    border-style :solid;
+    border-color :black;
+    padding:5px;
+    
+}
+ .topRow{
+    display :flex;
+    flex-direction:row;
+    justify-content :space-between; 
+    font-size: 10x;
+    
+    
+ }
+
+ .name , .navigation{
+    margin:5px;
+    display :flex;
+    
+ }
+
+ 
+ .role{
+    text-align:center;
+ }
+
+ .role-description{
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 10px;
+    color: grey;
+ }
+
+ #professionalSummary{
+    border-width:thin;
+    border-color: black;
+    border-style:solid;
+ }
+
+ #about-me{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+ }
+
+ 
+    #projects,
+    #education,
+   #technical-skills
+    {
+    border-width:thin;
+    border-color: black;
+    border-style:solid;
+    line-height: 100%;
+        }
+
+
+ h2 {
+    margin:5px;
+ }
+
+ .project-name,
+ .project-description,
+ .project-link,
+ .establishment,
+ .education-description{
+    margin: 5px;
+ }
+
+ 

@@ -36,13 +36,24 @@
     border-width:thin;
     border-color: black;
     border-style:solid;
+   padding: 5px;
  }
 
  #about-me{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin: 0 auto;
     gap: 10px;
 
+ }
+
+ @media(min-width: 600px){
+   #about-me{
+      display: flex;
+      flex-direction: row;
+      margin: 0 auto;
+      gap: 10px;
+   }
  }
 
  

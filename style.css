@@ -39,7 +39,8 @@
    padding: 5px;
  }
 
- #about-me{
+ #about-me, 
+ #project-info{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -48,13 +49,16 @@
  }
 
  @media(min-width: 600px){
-   #about-me{
+   #about-me, 
+   #project-info{
       display: flex;
       flex-direction: row;
       margin: 0 auto;
       gap: 10px;
    }
  }
+
+
 
  
     #projects,

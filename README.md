@@ -42,4 +42,6 @@ The website will open on your default browser.
 ### Link to the project on roadmap.sh
 [Portfolio Project in roadmap.sh](https://roadmap.sh/projects/portfolio-website)
 
+## Live Demo
+[View the live personal portfolio](https://gaiiaa15.github.io/css-portfolio/)
 
